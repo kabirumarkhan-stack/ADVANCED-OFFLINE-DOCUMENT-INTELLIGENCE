@@ -1,0 +1,10 @@
+sentence-transformers
+faiss-cpu
+numpy
+pickle-mixin
+pdfplumber
+langchain-text-splitters
+ollama
+flask
+werkzeug
+requests
