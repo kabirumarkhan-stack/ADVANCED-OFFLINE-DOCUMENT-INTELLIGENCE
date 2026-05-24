@@ -13,6 +13,7 @@ def build_index_if_needed():
         subprocess.run([sys.executable, os.path.join('src', 'embed.py')], check=True)
     else:
         print('FAISS index found. Skipping embedding.')
+    #the main project invoke File that can run the Entire project
 
 def run_flask():
     os.chdir('src')
